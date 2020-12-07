@@ -1,0 +1,84 @@
+.userInfoModal {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin-top: -8px;
+  text-align: center;
+  color: #5f6775;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Quicksand, sans-serif;
+}
+
+.infoLine {
+  display: flex;
+  justify-content: space-between;
+  font-family: Quicksand, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #31363f;
+}
+
+.select {
+  flex-grow: 1;
+  margin: 26px 16px 24px 0;
+  position: relative;
+}
+
+.session {
+  font-family: Quicksand, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  flex-grow: 1;
+  padding: 0;
+  margin: 26px 0 32px 16px;
+}
+
+.session__header {
+  margin: 0 0 8px 0;
+  font-family: Quicksand, sans-serif;
+}
+
+.session__content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.buttons {
+  margin-top: 39px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons__item {
+  margin-right: 32px;
+}
+
+.select__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin: 0;
+  font-family: Quicksand, sans-serif;
+}
+
+.select__selectMenu {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 1;
+}

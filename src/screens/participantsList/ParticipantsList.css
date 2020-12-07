@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  margin-bottom: 22px;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: blue;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.header__line {
+  height: 32px;
+  width: 1px;
+  background-color: #e0e5ee;
+  margin-right: 32px;
+  margin-left: 33px;
+}
+
+.header__count {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 32px;
+  color: #2556f5;
+  margin-top: 6px;
+}
+
+.header__description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c3cbd9;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.button {
+  margin-left: auto;
+  width: 156px;
+  height: 36px;
+  margin-top: 20px;
+}
+
+.search {
+  width: 513px;
+  margin-bottom: 16px;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkPermission {
+  color: #fff;
+  text-decoration: none;
+}
+
+.warning {
+  width: 500px;
+  height: 56px;
+  font-size: 36px;
+  line-height: 56px;
+  margin: 24px 0;
+  color: #c3cbd9;
+}
+
+.instruction {
+  color: #2556f5;
+  line-height: 20px;
+}
+
+.warningContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}

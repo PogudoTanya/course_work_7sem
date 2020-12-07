@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid white;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.search {
+  padding-top: 40px;
+  width: 413px;
+
+}
+
+.navigation {
+  font-size: 	xx-large;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin-right: 80px;
+}

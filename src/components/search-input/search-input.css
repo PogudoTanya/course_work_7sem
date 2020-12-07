@@ -1,0 +1,32 @@
+.input__input {
+  background: #fff;
+  border: 1px solid #e0e5ee;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Quicksand, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  padding-left: 20px;
+}
+
+.input__icon {
+  color: #5f6775;
+  position: absolute;
+  top: 8px;
+  left: 14px;
+}
+
+.input__input:hover + .input__icon,
+.input__input:focus + .input__icon {
+  fill: #2556f5;
+}
+
+.input {
+  position: relative;
+}

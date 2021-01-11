@@ -23,13 +23,6 @@
   z-index: 100;
 }
 
-.modal__closeButton {
-  position: absolute;
-  top: 37px;
-  right: 37px;
-  color: #5f6775;
-}
-
 .modal__Title {
   font-family: Quicksand, sans-serif;
   font-weight: 600;

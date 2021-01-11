@@ -55,6 +55,10 @@
   margin: 0;
 }
 
+.button{
+  margin-left: 10px;
+}
+
 .buttons {
   margin-top: 39px;
   display: flex;

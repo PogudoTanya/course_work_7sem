@@ -44,19 +44,19 @@ function ParticipantsList() {
       report: "ИНТЕЛЛЕКТУАЛЬНЫЕ ЭМОЦИИ",
     },
   ];
-  const [participantList, setPartisipantList] = useState(datat);
-  const [currentClientsCount, setCurrentClientsCount] = useState(3);
+  const [participantList, setPartisipantList] = useState([]);
+  const [currentClientsCount, setCurrentClientsCount] = useState(0);
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [selectedClientId, setSelectedClientId] = React.useState("");
   const [inputValue, setInputValue] = React.useState("");
   const [sortOrder, setSortOrder] = useState(1);
   const [sortField, setSortField] = useState('fullName');
   const getUsers = () => {
-    // UserService.getUsers().then((response) => {
-    //   setPartisipantList(response.data);
-    //   console.log(response.data);
-    //   setCurrentClientsCount(response.data.length);
-    // });
+    UserService.getUsers().then((response) => {
+      setPartisipantList(response.data);
+      console.log(response.data);
+      setCurrentClientsCount(response.data.length);
+    });
   };
 
   const onSort = ({ field }) => {
@@ -163,6 +163,7 @@ function ParticipantsList() {
             modalIsOpen={modalIsOpen}
             closeModal={closeModal}
             userId={selectedClientId}
+            callback={myCallbackFn}
           />
         )}
       </div>

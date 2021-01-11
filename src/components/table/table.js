@@ -10,6 +10,7 @@ export function Table({ data, columns, callback, onRowClick }) {
       UserService.deleteUsers(id).then(() => {
         callback();
       });
+
     } catch (err) {
       console.log("Error: ", err);
     }
@@ -40,13 +41,13 @@ export function Table({ data, columns, callback, onRowClick }) {
                 {column.get(item)}
               </td>
             ))}
-            <Button
+            {/* <Button
               onClick={() => {
                 deleteParticipant(item.id);
               }}
             >
               Delete
-            </Button>
+            </Button> */}
           </tr>
         ))}
       </tbody>

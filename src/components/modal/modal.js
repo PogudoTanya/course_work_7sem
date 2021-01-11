@@ -15,7 +15,6 @@ export function Modal(props) {
       ariaHideApp={false}
     >
       <h1 className='modal__Title'>{props.title}</h1>
-      <div className='modal__closeButton'>Close</div>
       {props.children}
     </ReactModal>
   );

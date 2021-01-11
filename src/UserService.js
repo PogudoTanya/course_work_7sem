@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const USERS_REST_API_URL = "http://ceec8c7d9b20.ngrok.io";
-const USERS_REST_API_URL_ADD = "http://ceec8c7d9b20.ngrok.io/add";
-const USERS_REST_API_URL_EMAIL = "http://ceec8c7d9b20.ngrok.io/email";
-const USERS_REST_API_URL_EMAILS = "http://ceec8c7d9b20.ngrok.io/email-to-group";
+const USERS_REST_API_URL = "https://conference-ostis.herokuapp.com/";
+const USERS_REST_API_URL_ADD = "https://conference-ostis.herokuapp.com/add";
+const USERS_REST_API_URL_EMAIL = "https://conference-ostis.herokuapp.com/email";
+const USERS_REST_API_URL_EMAILS = "https://conference-ostis.herokuapp.com/email-to-group";
 
 //https://conference-ostis.herokuapp.com
 

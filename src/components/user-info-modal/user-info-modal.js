@@ -20,6 +20,16 @@ export function UserInfoModal(props) {
   const [confYear, setConfYear] = React.useState("");
   const [report, setReport] = React.useState("");
 
+  async function deleteParticipant(id) {
+    try {
+      UserService.deleteUsers(id).then(() => {
+        props.callback();
+      });
+    } catch (err) {
+      console.log("Error: ", err);
+    }
+  }
+
   useEffect(() => {
     UserService.getUsers().then((response) => {
       {
@@ -56,6 +66,7 @@ export function UserInfoModal(props) {
       };
       UserService.updateUsers(updatedUser).then((response) => {
         console.log(response);
+        props.closeModal();
       });
       props.closeModal();
     } catch (err) {
@@ -70,9 +81,7 @@ export function UserInfoModal(props) {
       title="Participant Info"
     >
       <div className="userInfoModal">
-        <div className="header">
-          <p>Participant info</p>
-        </div>
+        <div className="header"></div>
         <div>
           <Input
             label="Name"
@@ -146,6 +155,14 @@ export function UserInfoModal(props) {
           <span>
             <Button onClick={getModalData}>Save changes</Button>
           </span>
+          <Button
+            onClick={() => {
+              deleteParticipant(props.userId);
+            }}
+            className='button'
+          >
+            Delete
+          </Button>
         </div>
       </div>
     </Modal>

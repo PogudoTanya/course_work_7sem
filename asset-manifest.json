@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cursash/static/css/main.f99caf0a.chunk.css",
+    "main.js": "/cursash/static/js/main.6591db81.chunk.js",
+    "main.js.map": "/cursash/static/js/main.6591db81.chunk.js.map",
+    "runtime-main.js": "/cursash/static/js/runtime-main.f42b1207.js",
+    "runtime-main.js.map": "/cursash/static/js/runtime-main.f42b1207.js.map",
+    "static/js/2.865d8693.chunk.js": "/cursash/static/js/2.865d8693.chunk.js",
+    "static/js/2.865d8693.chunk.js.map": "/cursash/static/js/2.865d8693.chunk.js.map",
+    "static/js/3.5501ae1e.chunk.js": "/cursash/static/js/3.5501ae1e.chunk.js",
+    "static/js/3.5501ae1e.chunk.js.map": "/cursash/static/js/3.5501ae1e.chunk.js.map",
+    "index.html": "/cursash/index.html",
+    "static/css/main.f99caf0a.chunk.css.map": "/cursash/static/css/main.f99caf0a.chunk.css.map",
+    "static/js/2.865d8693.chunk.js.LICENSE.txt": "/cursash/static/js/2.865d8693.chunk.js.LICENSE.txt",
+    "static/media/conf.b3012c46.jpg": "/cursash/static/media/conf.b3012c46.jpg",
+    "static/media/logo.8b13c4cd.png": "/cursash/static/media/logo.8b13c4cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f42b1207.js",
+    "static/js/2.865d8693.chunk.js",
+    "static/css/main.f99caf0a.chunk.css",
+    "static/js/main.6591db81.chunk.js"
+  ]
+}
